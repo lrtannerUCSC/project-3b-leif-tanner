@@ -20,14 +20,14 @@ class Load extends Phaser.Scene {
         });
 
         //Load character run sprites
-        this.load.image("player_idle", "tiles/tile_0045.png");
-        this.load.image("player_run", "tiles/tile_0046.png");
+        this.load.image("player_idle", "Tiles/tile_0045.png");
+        this.load.image("player_run", "Tiles/tile_0046.png");
 
         //Load jump audio
         this.load.audio("jumpSound", "audio/phaseJump2.ogg");
 
         //Load mushroom sprite
-        this.load.image("mushroom", "tiles/tile_0030.png")
+        this.load.image("mushroom", "tiles/Tile_0030.png")
         // Oooh, fancy. A multi atlas is a texture atlas which has the textures spread
         // across multiple png files, so as to keep their size small for use with
         // lower resource devices (like mobile phones).
@@ -37,7 +37,7 @@ class Load extends Phaser.Scene {
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
 
         //Load mushroom audio
-        this.load.audio("mushroomSound", "audio/impactMetal_medium_004.ogg");
+        this.load.audio("mushroomSound", "Audio/impactMetal_medium_004.ogg");
     }
 
     create() {

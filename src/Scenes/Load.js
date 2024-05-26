@@ -24,7 +24,7 @@ class Load extends Phaser.Scene {
         this.load.image("player_run", "Tiles/tile_0046.png");
 
         //Load jump audio
-        this.load.audio("jumpSound", "audio/phaseJump2.ogg");
+        this.load.audio("jumpSound", "Audio/phaseJump2.ogg");
 
         //Load mushroom sprite
         this.load.image("mushroom", "tiles/Tile_0030.png")
